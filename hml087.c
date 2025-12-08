@@ -49,7 +49,7 @@ void init_systick(void)
                   | SYSTICK_CTLR_STIE;
 
     //enables the SysTick IRQ
-    NVIC_EnableIRQ(SysTicK_IRQn);
+    NVIC_EnableIRQ(SysTick_IRQn);
 }
 
 /**
